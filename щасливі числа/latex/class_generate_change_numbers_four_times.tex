@@ -1,0 +1,55 @@
+\doxysection{Generate\+Change\+Numbers\+Four\+Times Class Reference}
+\hypertarget{class_generate_change_numbers_four_times}{}\label{class_generate_change_numbers_four_times}\index{GenerateChangeNumbersFourTimes@{GenerateChangeNumbersFourTimes}}
+
+
+Генерує числа, що складаються лише з цифр 4 і 7 та змінюються рівно 4 рази.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Tuple$<$ int, Big\+Integer $>$ \doxymbox{\hyperlink{class_generate_change_numbers_four_times_a953d6efb43946792fea708737c6d5311}{Generate\+Number}} ()
+\begin{DoxyCompactList}\small\item\em Генерує останнє число, яке має рівно 4 зміни між цифрами, та його позицію. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Генерує числа, що складаються лише з цифр 4 і 7 та змінюються рівно 4 рази. 
+
+Даний клас рекурсивно створює числа, використовуючи тільки цифри \textquotesingle{}4\textquotesingle{} та \textquotesingle{}7\textquotesingle{}. "{}Зміна"{} визначається як момент, коли дві сусідні цифри не однакові.
+
+Приклади:\+
+\begin{DoxyItemize}
+\item 44447777 має 1 зміну (4 → 7)
+\item 474747 має 5 змін
+\item 447744 має 3 зміни
+\end{DoxyItemize}
+
+Метою є знайти всі числа, що містять рівно 4 переходи між цифрами, та повернути останнє знайдене число разом із його позицією. 
+
+\label{doc-func-members}
+\Hypertarget{class_generate_change_numbers_four_times_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_generate_change_numbers_four_times_a953d6efb43946792fea708737c6d5311}\index{GenerateChangeNumbersFourTimes@{GenerateChangeNumbersFourTimes}!GenerateNumber@{GenerateNumber}}
+\index{GenerateNumber@{GenerateNumber}!GenerateChangeNumbersFourTimes@{GenerateChangeNumbersFourTimes}}
+\doxysubsubsection{\texorpdfstring{GenerateNumber()}{GenerateNumber()}}
+{\footnotesize\ttfamily \label{class_generate_change_numbers_four_times_a953d6efb43946792fea708737c6d5311} 
+Tuple$<$ int, Big\+Integer $>$ Generate\+Change\+Numbers\+Four\+Times.\+Generate\+Number (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Генерує останнє число, яке має рівно 4 зміни між цифрами, та його позицію. 
+
+Метод запускає рекурсивну генерацію чисел. Усі числа, що мають рівно 4 переходи між цифрами 4 та 7, додаються у список.
+
+\begin{DoxyReturn}{Returns}
+Кортеж:\+
+\begin{DoxyItemize}
+\item Item1:\+ позиція (індекс) останнього коректного числа у списку
+\item Item2:\+ останнє згенероване число типу Big\+Integer 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Generate\+Change\+Numbers\+Four\+Times.\+cs\end{DoxyCompactItemize}

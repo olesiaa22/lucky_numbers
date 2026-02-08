@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "pqNC6ppNnECvDoRU14xGx+PnUo7B795uTBSruC2ac/ocRjnthexDjlx75cP1QRfbBb9qsE7mKmIgedG7uIqSyw==",
+  "dgSpecHash": "n+Wr2BmKKYc=",
   "success": true,
-  "projectFilePath": "E:\\visual studio\\ооп\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Marketolog\\source\\repos\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Marketolog\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Marketolog\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Marketolog\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Marketolog\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

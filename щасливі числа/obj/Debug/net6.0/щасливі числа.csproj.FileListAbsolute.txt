@@ -26,3 +26,18 @@ E:\visual studio\ооп\щасливі числа\щасливі числа\obj\
 E:\visual studio\ооп\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.pdb
 E:\visual studio\ооп\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.genruntimeconfig.cache
 E:\visual studio\ооп\щасливі числа\щасливі числа\obj\Debug\net6.0\ref\щасливі числа.dll
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\bin\Debug\net6.0\щасливі числа.exe
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\bin\Debug\net6.0\щасливі числа.deps.json
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\bin\Debug\net6.0\щасливі числа.runtimeconfig.json
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\bin\Debug\net6.0\щасливі числа.dll
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\bin\Debug\net6.0\щасливі числа.pdb
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.AssemblyInfoInputs.cache
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.AssemblyInfo.cs
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.csproj.CoreCompileInputs.cache
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.sourcelink.json
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.dll
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\refint\щасливі числа.dll
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.pdb
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\щасливі числа.genruntimeconfig.cache
+C:\Users\Marketolog\source\repos\щасливі числа\щасливі числа\obj\Debug\net6.0\ref\щасливі числа.dll

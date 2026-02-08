@@ -1,0 +1,54 @@
+\doxysection{Generate\+Change\+Numbers\+Seven\+Times Class Reference}
+\hypertarget{class_generate_change_numbers_seven_times}{}\label{class_generate_change_numbers_seven_times}\index{GenerateChangeNumbersSevenTimes@{GenerateChangeNumbersSevenTimes}}
+
+
+Генерує числа, що складаються лише з цифр 4 і 7 та змінюються рівно 7 разів.  
+
+
+\doxysubsubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static Tuple$<$ int, Big\+Integer $>$ \doxymbox{\hyperlink{class_generate_change_numbers_seven_times_a067604687b057d0d53b47b88dc8068d4}{Generate\+Number}} ()
+\begin{DoxyCompactList}\small\item\em Генерує останнє число, яке має рівно 7 змін між цифрами, та його позицію. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Генерує числа, що складаються лише з цифр 4 і 7 та змінюються рівно 7 разів. 
+
+Даний клас рекурсивно будує числа, використовуючи тільки символи \textquotesingle{}4\textquotesingle{} та \textquotesingle{}7\textquotesingle{}. "{}Зміна"{} рахується тоді, коли дві сусідні цифри відрізняються.
+
+Приклади:\+
+\begin{DoxyItemize}
+\item 444777 має 1 зміну (4 → 7)
+\item 474747 має 5 змін (4→7, 7→4, ...)
+\end{DoxyItemize}
+
+У процесі генерації всі числа, що відповідають умові, зберігаються у списку, а результатом є останнє згенероване число та його позиція у цьому списку. 
+
+\label{doc-func-members}
+\Hypertarget{class_generate_change_numbers_seven_times_doc-func-members}
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_generate_change_numbers_seven_times_a067604687b057d0d53b47b88dc8068d4}\index{GenerateChangeNumbersSevenTimes@{GenerateChangeNumbersSevenTimes}!GenerateNumber@{GenerateNumber}}
+\index{GenerateNumber@{GenerateNumber}!GenerateChangeNumbersSevenTimes@{GenerateChangeNumbersSevenTimes}}
+\doxysubsubsection{\texorpdfstring{GenerateNumber()}{GenerateNumber()}}
+{\footnotesize\ttfamily \label{class_generate_change_numbers_seven_times_a067604687b057d0d53b47b88dc8068d4} 
+Tuple$<$ int, Big\+Integer $>$ Generate\+Change\+Numbers\+Seven\+Times.\+Generate\+Number (\begin{DoxyParamCaption}{}{}\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+Генерує останнє число, яке має рівно 7 змін між цифрами, та його позицію. 
+
+Метод запускає рекурсивний процес побудови чисел. Усі числа, що містять рівно 7 переходів між 4 та 7, додаються у список.
+
+\begin{DoxyReturn}{Returns}
+Кортеж:\+
+\begin{DoxyItemize}
+\item Item1:\+ позиція (індекс) останнього знайденого числа у списку
+\item Item2:\+ останнє згенероване коректне число типу Big\+Integer 
+\end{DoxyItemize}
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file:\+\begin{DoxyCompactItemize}
+\item 
+Generate\+Change\+Numbers\+Seven\+Times.\+cs\end{DoxyCompactItemize}

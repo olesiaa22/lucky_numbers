@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("щасливі числа")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b6ce3e11932fa98544072a8f346a6ca261cdaef")]
 [assembly: System.Reflection.AssemblyProductAttribute("щасливі числа")]
 [assembly: System.Reflection.AssemblyTitleAttribute("щасливі числа")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

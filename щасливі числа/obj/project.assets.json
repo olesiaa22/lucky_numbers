@@ -8,19 +8,24 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Olesya\\.nuget\\packages\\": {}
+    "C:\\Users\\Marketolog\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\visual studio\\ооп\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
+      "projectUniqueName": "C:\\Users\\Marketolog\\source\\repos\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
       "projectName": "щасливі числа",
-      "projectPath": "E:\\visual studio\\ооп\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
-      "packagesPath": "C:\\Users\\Olesya\\.nuget\\packages\\",
-      "outputPath": "E:\\visual studio\\ооп\\щасливі числа\\щасливі числа\\obj\\",
+      "projectPath": "C:\\Users\\Marketolog\\source\\repos\\щасливі числа\\щасливі числа\\щасливі числа.csproj",
+      "packagesPath": "C:\\Users\\Marketolog\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Marketolog\\source\\repos\\щасливі числа\\щасливі числа\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Olesya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Marketolog\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -40,7 +45,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -56,12 +67,30 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.36, 6.0.36]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
